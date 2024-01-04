@@ -1,0 +1,92 @@
+.Nav-Ul li{
+  display: inline-block;
+  padding:2px;
+
+}
+.Nav-Ul{
+    background: skyblue;
+    margin: 0px;
+    padding: 10px;
+    width:99%;
+}
+.Nav-Ul li a{
+    text-decoration-line: none;
+    color: currentcolor;
+    padding: 12px;
+}
+.Footer{
+  position: fixed;
+  background: skyblue;
+  bottom: 0px;
+  width: 99%;
+  text-align: center;
+}
+.register,
+.login,
+.add-product {
+  text-align: -webkit-center;
+  margin-top: 5%;
+}
+.l-b{
+  text-align: right;
+}
+.inputbox{
+    display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid skyblue;
+}
+.signButton,.loginButton,.add-button{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  border: ridge;
+  background-color: lightskyblue;
+  cursor: pointer;
+
+}
+.logo{
+    height: 40px;
+    width: 45px;
+    float: left;
+    margin-inline: 3%;
+    padding: 3px;
+    background: lightpink;
+    border-block-color: red;
+    border-radius: 50%;
+}
+.err-span{
+  /* margin: -20px 164px 0px -20px; */
+  display: block;
+  text-align: -webkit-left;
+  margin-left: 28%;
+  margin-top: -20px;
+  color: tomato;
+}
+.product-list{
+  text-align: center;
+}
+.product-list ul{
+  margin: 0px;
+}
+
+.product-list ul li{
+  display: inline-block;
+    border: 1px solid lightskyblue;
+   padding: 15px ;
+   width: 5rem;
+    background-color: rgb(174, 47, 9);
+    text-shadow: 0 0 black;
+}
+.search-bar
+{
+    height: 2rem;
+    width: 18rem;
+    margin: 15px;
+    border: 1px solid rgb(18, 158, 205);
+    padding-left: 10px;
+}
+
+
+
